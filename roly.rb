@@ -2,16 +2,16 @@
 class Roly < Formula
   desc "Set AWS environment variables based on your profile"
   homepage "https://github.com/diasjorge/roly/"
-  version "0.1.3"
+  version "0.1.4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/diasjorge/roly/releases/download/0.1.3/roly_0.1.3_darwin_amd64.tar.gz"
-    sha256 "b5d0e268bf9f6f0ab7f4454f48854063407b98ed3872c5de4ff26d01f0e3a2e2"
+    url "https://github.com/diasjorge/roly/releases/download/0.1.4/roly_0.1.4_darwin_amd64.tar.gz"
+    sha256 "ccffc0506be89c1bbc1cd0c8a371efb1d353990d7dc902f30c08b153c425e341"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/diasjorge/roly/releases/download/0.1.3/roly_0.1.3_linux_amd64.tar.gz"
-      sha256 "7fa8995ba4b27f3c2bf02636599cfbcc1cac29136f7d7241d153837b7629261c"
+      url "https://github.com/diasjorge/roly/releases/download/0.1.4/roly_0.1.4_linux_amd64.tar.gz"
+      sha256 "009778a8f4d003b89a2501d8beb3d8ab192ff85e5c662d310f4f743faf231a16"
     end
   end
 
